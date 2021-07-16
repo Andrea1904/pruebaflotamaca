@@ -1,0 +1,175 @@
+/* You can add global styles to this file, and also import other style files */
+/* MAIN */
+a{
+    text-decoration: none !important;
+}
+p, span, small, h1, h2, h3, h4, h5, h6{
+    color: #333;
+}
+.line-height-1-2{
+    line-height: 1.2;
+}
+.fs-6px{
+    font-size: 6px !important;
+}
+.fw-500{
+    font-weight: 500;
+}
+
+/* COLORS FONTS  */
+.text-blue{
+    color: #1389CD;
+}
+.text-gray{
+    color: #8B9AAF;
+}
+/* BG COLORS */
+.bg-white{
+    color: #fff;
+}
+/* BORDERS */
+.border-bottom{
+    border: 0;
+    border-bottom: 1px solid rgb(125,125,125);
+}
+/* BTN */
+.btn-blue{
+    background: #1389CD;
+    color: #fff;
+    border: 2px solid #1389CD;
+    transition: .5s;
+    border-radius: 3px;
+}
+.btn-blue:hover{
+    transition: .5s ease-in-out;
+    background: #fff;
+    color:#1389CD;
+}
+/* CUSTOM */
+.navbar-light .navbar-toggler{
+    border: 0;
+    color: #1389CD;
+}
+.navbar-light .navbar-toggler:focus{
+    box-shadow: none;
+}
+#profile #navbarDropdown.show + .dropdown-menu{
+    left: auto;
+    right: 0;
+}
+.dropdown-menu.fade {
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+}
+.show > .dropdown-menu.fade {
+    pointer-events: auto;
+    opacity: 1;
+}
+.lines .nav button{
+    border-radius: 0;
+}
+.lines .nav button{
+    color: rgb(126, 126, 126);
+}
+.lines .nav button.active{
+    background: none;
+    color: #333;
+    font-weight: 700;
+    border-bottom: 4px solid #1389CD;
+}
+.card{
+    border: 2px solid #D8DFE2;
+    border-radius: 10px;
+}
+.card-footer{
+    border: 0;
+    background: #E8ECEE;
+}
+.card.disabled{
+    border: 2px solid #F4F5F4;
+}
+.card.disabled h5{
+    color: #8A929E;
+}
+.card.disabled img{
+    filter: grayscale(100%);
+    opacity: .5;
+}
+.card.disabled a{
+    color: #AFAFAF;
+}
+.card.disabled .card-footer{
+    background: #F8F9F8;
+}
+.alert-warning{
+    background:#FDEED3;
+    border-color: #FDEED3;
+    border-radius: 8px;
+    color:#F4C671;
+}
+.alert-warning hr{
+    color:#F4C671;
+    display: block;
+    height: 25px;
+    width: 2px;
+    opacity: 1;
+    margin: 0;
+}
+
+@media (max-width: 767px){
+    .navbar-brand img{
+        width: 150px;
+    }
+    .card img{
+        width: 50%;
+    }
+    .card .card-title{
+        font-size: 13px;
+    }
+    .fs-10px{
+        font-size: 10px;
+    }
+    .vh-custom{
+        height: 80vh!important;
+    }
+    .font-12{
+        font-size: 12px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1279px){
+    .paddingCustom-xy35{
+        padding-top: 35px !important;
+        padding-bottom: 35px !important;
+    }
+    .paddingCustom-t35{
+        padding-top: 35px !important;
+    }
+    .vh-custom{
+        height: 85vh!important;
+    }
+    .font-12{
+        font-size: 12px;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1920px){
+    .font-12{
+        font-size: 16px;
+    }
+    .paddingCustom-xy35{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    #footer{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .vh-custom{
+        height: 82vh!important;
+    }
+    .font-35px{
+        font-size: 35px !important;
+    }
+}

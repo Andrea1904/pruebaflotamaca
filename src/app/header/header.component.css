@@ -1,0 +1,80 @@
+.btn-menu-hamb {
+    border: 0 !important;
+    border-color: none;
+    border-color: transparent !important;
+}
+.nav-bank {
+    border-bottom: 1px solid #E8F0F2;
+    width: 100%;
+}
+.bank-logo {
+    width: 200px;
+    margin-left: 30px;
+}
+@media (max-width: 340px) {
+    .bank-logo {
+        width: 150px;
+        margin: 15px;
+    }
+    .btn-menu-hamb {
+        height: 30px;
+        width: 30px;
+    }
+}
+.dropdown-menu {
+    left: -95px;
+}
+
+
+.img-to-show {
+    float: right !important;
+}
+
+.nav-user-info {
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+    line-height: 0.2;
+    font-size: 14px;
+}
+.nav-username {
+    font-weight: bold;
+}
+
+.nav-usercadre {
+    color: #888381 !important;
+}
+
+.home-back-top {
+    color: cornflowerblue;
+}
+
+@media (min-width: 770px) {
+    .home-back-top {
+        display: none;
+    }
+}
+
+.contentido {
+    position: fixed;
+    right: 15px;
+}
+
+.hambur-content li{
+    float: left;
+}
+.hambur-content li a{
+    display: block;
+    text-align: center;
+}
+@media (max-width: 991px) {
+    .contentido {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+}

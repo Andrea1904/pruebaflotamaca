@@ -1,0 +1,107 @@
+<nav class="navbar navbar-expand-lg navbar-light nav-bank">
+  <div class="home-back-top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-left"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+              d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+      </svg>
+  </div>
+  <a class="navbar-brand" href="#">
+      <img class="bank-logo" src="assets/images/logoentidad.png" alt="">
+  </a>
+  <button class="navbar-toggler btn-menu-hamb" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="contentido" id="">
+      <ul class="navbar-nav ml-auto">
+    
+
+          <li class="nav-item dropdown">
+            <a class="nav-link  nav-username dropdown-toggle d-flex " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+              <div class="d-flex ">
+              <!--  <span class="fw-bold">{{ data.gerenteRelacion }}</span>
+                <span>Gerente de Relación</span>-->
+
+                <a class="nav-link nav-username" href="#">{{data.gerenteRelacion}} <span
+                  class="sr-only">   </span>
+                </a>
+                <p class="nav-link nav-username" href="#">
+                    Gerente de Relación<span class="sr-only"></span>
+                </p>
+
+              </div>
+              <img src="assets/images/gerente.png" alt="" class="d-inline-block align-text-top p-5" width="45" height="45" class="rounded-circle"
+              style="object-fit: cover; object-position: right">
+            </a> 
+          
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown" aling='center'>
+                  
+                <div class="" style="width: 18rem;">
+                    <p class="text-center m-0">
+                      <img src="assets/images/gerente.png" class="p-3" alt="...">
+                    </p>
+                    <div class="card-body text-center nav-username" aling='center'>
+                      <h3 class="card-title m-0">{{ data.gerenteRelacion }}</h3>
+                      <br/> </div>
+                      <div>
+                      <h5 class="card-text">Gerente de Relación</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a href ="https://www.bancodeoccidente.com.co/wps/portal/banco-de-occidente/bancodeoccidente/quienes-somos/"><li class="list-group-item" >Quienes Somos</li></a>
+                        <a href ="https://www.bancodeoccidente.com.co/solicitarcredito/#/"> <li class="list-group-item">Adquiere tus productos</li></a> 
+                        <a href ="https://www.bancodeoccidente.com.co/wps/portal/banco-de-occidente/bancodeoccidente/landings/contactanos-pqrs">  <li class="list-group-item">Ayuda de un Asesor</li></a>                  
+                    </ul>               
+                </div>
+               </ul>
+            
+
+
+
+          </li>
+      </ul>
+  </div>
+
+  <div class="collapse navbar-collapse hambur-content" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item nav-user-info">
+              <a class="dropdown-item" href="#">Perfil</a>
+          </li>
+          <li class="nav-item nav-user-info">
+              <a class="dropdown-item" href="#">Configuración</a>
+          </li>
+          <li class="nav-item nav-user-info">
+              <a class="dropdown-item" href="#">Salir</a>
+          </li>
+          <!-- <li class="nav-item nav-user-info">
+              <a class="nav-link nav-username" href="#">{{userData.gerenteRelacion}} <span
+                      class="sr-only">(current)</span>
+              </a>
+              <p class="nav-link nav-usercadre" href="#">
+                  Gerente de Relación<span class="sr-only">(current)</span>
+              </p>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link nav-username" href="#">{{userData.gerenteRelacion}} <span
+                  class="sr-only">(current)</span>
+          </a>
+          <p class="nav-link nav-usercadre" href="#">
+              Gerente de Relación<span class="sr-only">(current)</span>
+          </p>
+              <a class="nav-link dropdown-toggle img-to-show" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <img src="./assets/img/profile.jpg" width="45" height="45" class="rounded-circle"
+                      style="object-fit: cover; object-position: center center;">
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Perfil</a>
+                  <a class="dropdown-item" href="#">Configuración</a>
+                  <a class="dropdown-item" href="#">Salir</a>
+              </div>
+          </li> -->
+      </ul>
+  </div>
+
+</nav>
